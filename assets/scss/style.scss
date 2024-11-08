@@ -23,19 +23,14 @@
   src: local('Circular Std Bold'), local('CircularStd-Bold'), url('~/assets/fonts/CircularStd-Bold.woff2') format('woff2');
 }
 
-// ================================== //
-// Required Files
-// ================================== //
 @include meta.load-css("variables.scss");
-@include meta.load-css('vuetify/lib/styles/main.sass');
-// @import "variables";
-// @import 'vuetify/styles/main.sass';
 
 // ================================== //
 // Icons
 // ================================== //
 // @import "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css";
 
-body {
-  background-color: #000;
-}
+// html, body {
+//   background-color: #000;
+//   font-family: 'Circular Std', sans-serif;
+// }
